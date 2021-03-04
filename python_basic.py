@@ -61,3 +61,10 @@ r2 = list(range(1, 10))
 r3 = list(range(1, 10, 3))
 print(r1, r2, r3)
 
+ii = 1
+while ii <= 10:
+    print("运行次数", ii)
+    ii = ii + 1
+    if ii >= 5:
+        break
+
