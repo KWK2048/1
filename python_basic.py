@@ -52,4 +52,3 @@ if clubmember == 1:
 elif clubmember == 0:
     pass  # pass 没有实际意义，用于搭建架构时占位符，用于以后放语句的地方
     print('please checkout without discount')
-    pass
