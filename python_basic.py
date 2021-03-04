@@ -54,8 +54,10 @@ elif clubmember == 0:
     pass  # pass 没有实际意义，用于搭建架构时占位符，用于以后放语句的地方
     print('please checkout without discount')
 '''
+print('-----循环结构------')
 # range()
 r1 = list(range(10))
 r2 = list(range(1, 10))
 r3 = list(range(1, 10, 3))
 print(r1, r2, r3)
+
