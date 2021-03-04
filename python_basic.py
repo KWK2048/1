@@ -68,3 +68,11 @@ r1 = list(range(10))
 r2 = list(range(1, 10))
 r3 = list(range(1, 10, 3))
 print(r1, r2, r3)
+
+for i in range(5):
+    print('此时i的值是', i)
+
+total = 0
+for i in range(101):
+    total = total + i
+print('1+2+...+100 = \n', total)
