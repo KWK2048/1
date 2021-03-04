@@ -55,12 +55,7 @@ elif clubmember == 0:
     print('please checkout without discount')
 '''
 print('-----循环结构------')
-# range()
-r1 = list(range(10))
-r2 = list(range(1, 10))
-r3 = list(range(1, 10, 3))
-print(r1, r2, r3)
-
+# while syntax
 ii = 1
 while ii <= 10:
     print("运行次数", ii)
@@ -68,3 +63,8 @@ while ii <= 10:
     if ii >= 5:
         break
 
+# for & range()
+r1 = list(range(10))
+r2 = list(range(1, 10))
+r3 = list(range(1, 10, 3))
+print(r1, r2, r3)
