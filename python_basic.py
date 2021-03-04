@@ -38,6 +38,7 @@ elif gradeNum >= 0 and gradeNum < 70:
 else:
     print('invalid input')
 '''
+'''
 print('------------嵌套if语句----------')
 # 会员卡购物，大于200时8折；大于100时9折；非会员不打折
 clubmember = int(input('Are you clubmember, yes-1; no-0 \n'))
@@ -52,4 +53,9 @@ if clubmember == 1:
 elif clubmember == 0:
     pass  # pass 没有实际意义，用于搭建架构时占位符，用于以后放语句的地方
     print('please checkout without discount')
-    pass
+'''
+# range()
+r1 = list(range(10))
+r2 = list(range(1, 10))
+r3 = list(range(1, 10, 3))
+print(r1, r2, r3)
