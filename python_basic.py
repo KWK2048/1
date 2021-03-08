@@ -69,10 +69,28 @@ r2 = list(range(1, 10))
 r3 = list(range(1, 10, 2))
 print(r1, '\n', r2, '\n', r3, '\n')
 
-for i in range(5):
+for i in range(5):     #在for循环中使用range(len(someList))，迭代列表的每一个下标
     print('此时i的值是', i)
 
 total = 0
 for i in range(101):
     total = total + i
 print('1+2+...+100 = \n', total)
+
+
+fruits=["apple","orange","pear","banana","peach","watermelon"]
+print ('I like eating some fruits,such as:')
+for fru in fruits:
+    print(fru)
+    #用于换行
+
+
+# += 的应用
+a=1
+a +=1
+print(a)
+
+str1 = 'hello '
+str1 += 'world'
+print(str1)
+
