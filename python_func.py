@@ -1,6 +1,7 @@
-
-# 1) 使用import将库函数导入进来
+# python 内建函数
 '''
+# 1) 使用import将库函数导入进来
+#  1) import lib
 import random #库
 for i in range(5):
     print(random.randint(1, 10))  #[1~10]  randint是random库的函数

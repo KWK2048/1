@@ -66,8 +66,8 @@ while ii <= 10:
 # for & range()
 r1 = list(range(10))
 r2 = list(range(1, 10))
-r3 = list(range(1, 10, 3))
-print(r1, r2, r3)
+r3 = list(range(1, 10, 2))
+print(r1, '\n', r2, '\n', r3, '\n')
 
 for i in range(5):
     print('此时i的值是', i)
