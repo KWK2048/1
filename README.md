@@ -1,3 +1,3 @@
-# this repo is not a real project.
-# practics basic syntax of python.
-# plan to finish in 1 month.
+# Python repo, this is not a real project.
+# Practics basic syntax of python.
+# Plan to finish in 1 month.
