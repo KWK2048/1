@@ -16,3 +16,6 @@ for i in range(5):
 from random import * #库及 所有 函数
 for i in range(5):
     print(randint(1, 10))  #[1~10]  randint是random库的函数
+
+
+# import ... as...
