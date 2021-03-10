@@ -28,3 +28,6 @@ isspace()返回True，如果字符串只包含空格、制表符和换行，并�
 s1 = 'This Is Title Case 123'.istitle()
 s2 = 'This Is not Title Case'.istitle()
 print(s1,s2)
+
+import math
+print ( math.sin(1.57) )
